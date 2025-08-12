@@ -1,0 +1,53 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+        }
+        /* Custom scrollbar for the sidebar */
+        .sidebar::-webkit-scrollbar {
+            width: 8px;
+        }
+        .sidebar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        .sidebar::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        .sidebar::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        /* Active link styling */
+        .sidebar a.active {
+            background-color: #e0f2fe; /* blue-100 */
+            color: #1d4ed8; /* blue-700 */
+        }
+        /* Active tab styling */
+        .tab-button.active-tab {
+            border-bottom-width: 2px;
+            border-color: #1d4ed8; /* blue-700 */
+            color: #1d4ed8; /* blue-700 */
+        }
+        /* Custom select arrow */
+        .custom-select-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        .custom-select-wrapper select {
+            appearance: none; /* Remove default arrow */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding-right: 2rem; /* Make space for custom arrow */
+            background-image: none; /* Remove default arrow image */
+        }
+        .custom-select-wrapper::after {
+            content: '\f078'; /* Font Awesome chevron-down icon */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            right: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none; /* Allow clicks to pass through to the select */
+            color: #6b7280; /* gray-500 */
+        }

@@ -1,0 +1,154 @@
+ body {
+            margin: 0;
+            background: #f3fafd;
+            font-family: 'Montserrat', Arial, sans-serif;
+        }
+        .navbar {
+            background: #388fbf;
+            padding: 0.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar .logo-btn {
+            background: #fff;
+            border: none;
+            padding: 0.7rem 2rem;
+            border-radius: 6px;
+            font-weight: 600;
+            color: #388fbf;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .navbar .nav-links {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 2rem;
+        }
+        .navbar .search {
+            margin-left: 2rem;
+            font-size: 1.2rem;
+            color: #fff;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .main-content {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            display: flex;
+            padding: 2.5rem 3rem;
+            gap: 2.5rem;
+            align-items: center;
+            max-width: 800px;
+            width: 100%;
+        }
+        .card-illustration img {
+            width: 260px;
+            max-width: 100%;
+        }
+        .form-section {
+            min-width: 280px;
+            flex: 1;
+        }
+        .form-section h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #18344a;
+            font-weight: 700;
+        }
+        .input-row {
+            display: flex;
+            align-items: center;
+            background: #f0f0f0;
+            border-radius: 6px;
+            margin-bottom: 1.2rem;
+            padding: 0.5rem 1rem;
+        }
+        .input-row .material-symbols-filled {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 32px; 
+            margin-right: 0.7rem;
+            
+            font-size: 1.6rem;
+                }
+        .input-row input {
+            border: none;
+            background: transparent;
+            outline: none;
+            font-size: 1rem;
+            flex: 1;
+            padding: 0.5rem 0;
+            font-family: inherit;
+        }
+        .form-section .signup-btn {
+            width: 100%;
+            background: #388fbf;
+            color: #fff;
+            border: none;
+            border-radius: 24px;
+            padding: 0.7rem 0;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-top: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .form-section .signup-btn:hover {
+            background: #2c6e99;
+        }
+        .form-section .login-link {
+            margin-top: 1.2rem;
+            text-align: center;
+            color: #888;
+            font-size: 0.98rem;
+        }
+        .form-section .login-link a {
+            color: #388fbf;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 0.2rem;
+        }
+        .logo_style {
+        width: 38px;
+        height: 38px;
+        object-fit: contain;
+        
+        margin-right: 12px;
+
+    }
+    .illustration img {
+        width: 500px;
+        max-width: 100%;
+    }
+
+    .logo-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.logo-image {
+    height: 48px;      /* Adjust height as needed */
+    width: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* Optional: subtle shadow */
+}
