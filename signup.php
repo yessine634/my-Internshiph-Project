@@ -87,9 +87,9 @@ if (isset($_GET['success'])) {
 </head>
 <body>
     <div class="navbar">
-        <button class="logo-btn">
+        <div class="bg-blue-500 p-2 rounded-lg inline-block">
             <img src="logo/artibedded_logo.webp" alt="Logo" class="logo-image">
-        </button>
+        </div>
         
     </div>
     <div class="main-content">

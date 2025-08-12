@@ -58,10 +58,9 @@ if (isset($_GET['error']) && $_GET['error'] == "invalid_credentials") {
 </head>
 <body>
     <div class="navbar">
-        <button class="logo-btn">
-            <img src="logo/idjxvxvIZo_logos.png" alt="Logo" class="logo-image">
-        </button>
-       
+        <div class="bg-blue-500 p-2 rounded-lg inline-block">
+            <img src="logo/artibedded_logo.webp" alt="Logo" class="logo-image">
+        </div>
     </div>
     <div class="main-content">
         <div class="card">
